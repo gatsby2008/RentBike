@@ -159,7 +159,7 @@ class RentBikeSpec extends Specification{
             rental.addRentedBike(bikeByWeek2)
             rental.addRentedBike(bikeByDays)
             rental.addRentedBike(bikeByDays2)
-        then: "total rented bikes should be 3 and the total amount should NOT contains a 30% of discount"
+        then: "total rented bikes should be 6 and the total amount should NOT contains a 30% of discount"
             rental.getTotalRentedBikes() == 6
             rental.getTotalAmountRentedBikes() == result
         where: "hours rented, days rented, weeks rented are... result is"

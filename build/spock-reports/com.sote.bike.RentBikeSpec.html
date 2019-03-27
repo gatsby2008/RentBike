@@ -251,7 +251,7 @@ div.footer {
 </div>
 <div class='summary-report'>
 <h3>Summary:</h3>
-<div class='date-test-ran'>Created on Wed Mar 27 12:51:25 ART 2019 by marcelo</div>
+<div class='date-test-ran'>Created on Wed Mar 27 17:43:53 ART 2019 by marcelo</div>
 <table class='summary-table'>
 <thead>
 <th>Executed features</th>
@@ -263,12 +263,12 @@ div.footer {
 </thead>
 <tbody>
 <tr>
-<td>1</td>
+<td>21</td>
 <td>0</td>
-<td>1</td>
 <td>0</td>
-<td>0.0%</td>
-<td>0.113 seconds</td>
+<td>0</td>
+<td>100.0%</td>
+<td>0.104 seconds</td>
 </tr>
 </tbody>
 </table>
@@ -282,29 +282,73 @@ div.footer {
 <tbody>
 <ul id='toc'>
 <li>
-<a href='#-1555723156' class='feature-toc-error'>Rental by hour, charging $5 per hour</a>
+<a href='#1886960636' class='feature-toc-pass'>Rental by hour, charging $5 per hour. Result when different number of hours are evaluated [0]</a>
 </li>
 <li>
-<a href='#-547735085' class='feature-toc-ignored'>Rental by day, charging $20 a day</a>
+<a href='#1886960667' class='feature-toc-pass'>Rental by hour, charging $5 per hour. Result when different number of hours are evaluated [1]</a>
 </li>
 <li>
-<a href='#1798913463' class='feature-toc-ignored'>Rental by day, charging $20 a day. Result when different number of days are evaluated</a>
+<a href='#1886960698' class='feature-toc-pass'>Rental by hour, charging $5 per hour. Result when different number of hours are evaluated [2]</a>
 </li>
 <li>
-<a href='#1932338131' class='feature-toc-ignored'>Rental by week, changing $60 a week</a>
+<a href='#-1938460193' class='feature-toc-pass'>Rental by day, charging $20 a day. Result when different number of days are evaluated [0]</a>
 </li>
 <li>
-<a href='#691460381' class='feature-toc-ignored'>Family Rental, is a promotion that can include from 3 to 5 Rentals (of any type) with a
-    "discount of 30% of the total price</a>
+<a href='#-1938460162' class='feature-toc-pass'>Rental by day, charging $20 a day. Result when different number of days are evaluated [1]</a>
 </li>
 <li>
-<a href='#1345819810' class='feature-toc-ignored'>My feature</a>
+<a href='#-1938460131' class='feature-toc-pass'>Rental by day, charging $20 a day. Result when different number of days are evaluated [2]</a>
+</li>
+<li>
+<a href='#-483668379' class='feature-toc-pass'>Rental by week, changing $60 a week. Result when different number of weeks are evaluated [0]</a>
+</li>
+<li>
+<a href='#-483668348' class='feature-toc-pass'>Rental by week, changing $60 a week. Result when different number of weeks are evaluated [1]</a>
+</li>
+<li>
+<a href='#-483668317' class='feature-toc-pass'>Rental by week, changing $60 a week. Result when different number of weeks are evaluated [2]</a>
+</li>
+<li>
+<a href='#-1632250616' class='feature-toc-pass'>Family Rental, discount of 30% is applied to 3 rentals [0]</a>
+</li>
+<li>
+<a href='#-1632250585' class='feature-toc-pass'>Family Rental, discount of 30% is applied to 3 rentals [1]</a>
+</li>
+<li>
+<a href='#-1632250554' class='feature-toc-pass'>Family Rental, discount of 30% is applied to 3 rentals [2]</a>
+</li>
+<li>
+<a href='#-1925653623' class='feature-toc-pass'>Family Rental, discount of 30% is applied to 4 rentals [0]</a>
+</li>
+<li>
+<a href='#-1925653592' class='feature-toc-pass'>Family Rental, discount of 30% is applied to 4 rentals [1]</a>
+</li>
+<li>
+<a href='#-1925653561' class='feature-toc-pass'>Family Rental, discount of 30% is applied to 4 rentals [2]</a>
+</li>
+<li>
+<a href='#2075910666' class='feature-toc-pass'>Family Rental, discount of 30% is applied to 5 rentals [0]</a>
+</li>
+<li>
+<a href='#2075910697' class='feature-toc-pass'>Family Rental, discount of 30% is applied to 5 rentals [1]</a>
+</li>
+<li>
+<a href='#2075910728' class='feature-toc-pass'>Family Rental, discount of 30% is applied to 5 rentals [2]</a>
+</li>
+<li>
+<a href='#-953020104' class='feature-toc-pass'>Family Rental, discount of 30% is not applied to 6 rentals [0]</a>
+</li>
+<li>
+<a href='#-953020073' class='feature-toc-pass'>Family Rental, discount of 30% is not applied to 6 rentals [1]</a>
+</li>
+<li>
+<a href='#-953020042' class='feature-toc-pass'>Family Rental, discount of 30% is not applied to 6 rentals [2]</a>
 </li>
 </ul>
 <tr>
 <td colspan='10'>
-<div class='feature-description error' id='-1555723156'>
-<span>Rental by hour, charging $5 per hour</span>
+<div class='feature-description' id='1886960636'>
+<span>Rental by hour, charging $5 per hour. Result when different number of hours are evaluated [0]</span>
 <span style='float: right; font-size: 60%;'>
 <a href='#toc'>Return</a>
 </span>
@@ -332,89 +376,7 @@ div.footer {
 <div class='block-kind'>Then:</div>
 </td>
 <td>
-<div class='block-text'>the total rented bikes should be 1 and the total price should be 6 times the price</div>
-</td>
-</tr>
-<tr>
-<td colspan='10'>
-<div class='problem-description'>
-<div class='problem-header'>The following problems occurred:</div>
-<div class='problem-list'>
-<ul>
-<li>
-<pre>groovy.lang.MissingPropertyException: No such property: driver for class: com.sote.bike.RentBikeSpec</pre>
-</li>
-</ul>
-</div>
-</div>
-</td>
-</tr>
-<tr>
-<td colspan='10'>
-<div class='feature-description ignored' id='-547735085'>
-<span>Rental by day, charging $20 a day</span>
-<span style='float: right; font-size: 60%;'>
-<a href='#toc'>Return</a>
-</span>
-</div>
-</td>
-</tr>
-<tr>
-<td>
-<div class='block-kind'>Given:</div>
-</td>
-<td>
-<div class='block-text'>a bike</div>
-</td>
-</tr>
-<tr>
-<td>
-<div class='block-kind'>When:</div>
-</td>
-<td>
-<div class='block-text'>the bike is rented for 5 day </div>
-</td>
-</tr>
-<tr>
-<td>
-<div class='block-kind'>Then:</div>
-</td>
-<td>
-<div class='block-text'>the total rented bikes should be 1 and the total price should be 5 times the price</div>
-</td>
-</tr>
-<tr>
-<td colspan='10'>
-<div class='feature-description ignored' id='1798913463'>
-<span>Rental by day, charging $20 a day. Result when different number of days are evaluated</span>
-<span style='float: right; font-size: 60%;'>
-<a href='#toc'>Return</a>
-</span>
-</div>
-</td>
-</tr>
-<tr>
-<td>
-<div class='block-kind'>Given:</div>
-</td>
-<td>
-<div class='block-text'>a bike</div>
-</td>
-</tr>
-<tr>
-<td>
-<div class='block-kind'>When:</div>
-</td>
-<td>
-<div class='block-text'>the bike is rented for 5 day </div>
-</td>
-</tr>
-<tr>
-<td>
-<div class='block-kind'>Then:</div>
-</td>
-<td>
-<div class='block-text'>the total rented bikes should be 1 and the total price should be 5 times the price</div>
+<div class='block-text'>the total rented bikes should be 1 and the total price should be hours rented by price</div>
 </td>
 </tr>
 <tr>
@@ -422,13 +384,35 @@ div.footer {
 <div class='block-kind'>Where:</div>
 </td>
 <td>
-<div class='block-text'>days are... result is...</div>
+<div class='block-text'>hours rented are... result is...</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Examples:</div>
+</td>
+<td>
+<div class='spec-examples'>
+<table class='ex-table'>
+<thead>
+<th class='ex-header'>hoursRented</th>
+<th class='ex-header'>result</th>
+</thead>
+<tbody>
+<tr class='ex-pass'>
+<td class='ex-value'>1</td>
+<td class='ex-value'>5</td>
+<td class='ex-result'>OK</td>
+</tr>
+</tbody>
+</table>
+</div>
 </td>
 </tr>
 <tr>
 <td colspan='10'>
-<div class='feature-description ignored' id='1932338131'>
-<span>Rental by week, changing $60 a week</span>
+<div class='feature-description' id='1886960667'>
+<span>Rental by hour, charging $5 per hour. Result when different number of hours are evaluated [1]</span>
 <span style='float: right; font-size: 60%;'>
 <a href='#toc'>Return</a>
 </span>
@@ -448,7 +432,7 @@ div.footer {
 <div class='block-kind'>When:</div>
 </td>
 <td>
-<div class='block-text'>the bike is rented for 3 weeks</div>
+<div class='block-text'>the bike is rented for 6 hours</div>
 </td>
 </tr>
 <tr>
@@ -456,14 +440,491 @@ div.footer {
 <div class='block-kind'>Then:</div>
 </td>
 <td>
-<div class='block-text'>the total rented bikes should be 1 and the total price should be 3 times the price</div>
+<div class='block-text'>the total rented bikes should be 1 and the total price should be hours rented by price</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Where:</div>
+</td>
+<td>
+<div class='block-text'>hours rented are... result is...</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Examples:</div>
+</td>
+<td>
+<div class='spec-examples'>
+<table class='ex-table'>
+<thead>
+<th class='ex-header'>hoursRented</th>
+<th class='ex-header'>result</th>
+</thead>
+<tbody>
+<tr class='ex-pass'>
+<td class='ex-value'>5</td>
+<td class='ex-value'>25</td>
+<td class='ex-result'>OK</td>
+</tr>
+</tbody>
+</table>
+</div>
 </td>
 </tr>
 <tr>
 <td colspan='10'>
-<div class='feature-description ignored' id='691460381'>
-<span>Family Rental, is a promotion that can include from 3 to 5 Rentals (of any type) with a
-    "discount of 30% of the total price</span>
+<div class='feature-description' id='1886960698'>
+<span>Rental by hour, charging $5 per hour. Result when different number of hours are evaluated [2]</span>
+<span style='float: right; font-size: 60%;'>
+<a href='#toc'>Return</a>
+</span>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Given:</div>
+</td>
+<td>
+<div class='block-text'>a bike</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>When:</div>
+</td>
+<td>
+<div class='block-text'>the bike is rented for 6 hours</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Then:</div>
+</td>
+<td>
+<div class='block-text'>the total rented bikes should be 1 and the total price should be hours rented by price</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Where:</div>
+</td>
+<td>
+<div class='block-text'>hours rented are... result is...</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Examples:</div>
+</td>
+<td>
+<div class='spec-examples'>
+<table class='ex-table'>
+<thead>
+<th class='ex-header'>hoursRented</th>
+<th class='ex-header'>result</th>
+</thead>
+<tbody>
+<tr class='ex-pass'>
+<td class='ex-value'>3</td>
+<td class='ex-value'>15</td>
+<td class='ex-result'>OK</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td colspan='10'>
+<div class='feature-description' id='-1938460193'>
+<span>Rental by day, charging $20 a day. Result when different number of days are evaluated [0]</span>
+<span style='float: right; font-size: 60%;'>
+<a href='#toc'>Return</a>
+</span>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Given:</div>
+</td>
+<td>
+<div class='block-text'>a bike</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>When:</div>
+</td>
+<td>
+<div class='block-text'>the bike is rented</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Then:</div>
+</td>
+<td>
+<div class='block-text'>the total rented bikes should be 1 and the total price should be days rented by price</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Where:</div>
+</td>
+<td>
+<div class='block-text'>days rented are... result is...</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Examples:</div>
+</td>
+<td>
+<div class='spec-examples'>
+<table class='ex-table'>
+<thead>
+<th class='ex-header'>daysRented</th>
+<th class='ex-header'>result</th>
+</thead>
+<tbody>
+<tr class='ex-pass'>
+<td class='ex-value'>1</td>
+<td class='ex-value'>20</td>
+<td class='ex-result'>OK</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td colspan='10'>
+<div class='feature-description' id='-1938460162'>
+<span>Rental by day, charging $20 a day. Result when different number of days are evaluated [1]</span>
+<span style='float: right; font-size: 60%;'>
+<a href='#toc'>Return</a>
+</span>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Given:</div>
+</td>
+<td>
+<div class='block-text'>a bike</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>When:</div>
+</td>
+<td>
+<div class='block-text'>the bike is rented</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Then:</div>
+</td>
+<td>
+<div class='block-text'>the total rented bikes should be 1 and the total price should be days rented by price</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Where:</div>
+</td>
+<td>
+<div class='block-text'>days rented are... result is...</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Examples:</div>
+</td>
+<td>
+<div class='spec-examples'>
+<table class='ex-table'>
+<thead>
+<th class='ex-header'>daysRented</th>
+<th class='ex-header'>result</th>
+</thead>
+<tbody>
+<tr class='ex-pass'>
+<td class='ex-value'>5</td>
+<td class='ex-value'>100</td>
+<td class='ex-result'>OK</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td colspan='10'>
+<div class='feature-description' id='-1938460131'>
+<span>Rental by day, charging $20 a day. Result when different number of days are evaluated [2]</span>
+<span style='float: right; font-size: 60%;'>
+<a href='#toc'>Return</a>
+</span>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Given:</div>
+</td>
+<td>
+<div class='block-text'>a bike</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>When:</div>
+</td>
+<td>
+<div class='block-text'>the bike is rented</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Then:</div>
+</td>
+<td>
+<div class='block-text'>the total rented bikes should be 1 and the total price should be days rented by price</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Where:</div>
+</td>
+<td>
+<div class='block-text'>days rented are... result is...</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Examples:</div>
+</td>
+<td>
+<div class='spec-examples'>
+<table class='ex-table'>
+<thead>
+<th class='ex-header'>daysRented</th>
+<th class='ex-header'>result</th>
+</thead>
+<tbody>
+<tr class='ex-pass'>
+<td class='ex-value'>3</td>
+<td class='ex-value'>60</td>
+<td class='ex-result'>OK</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td colspan='10'>
+<div class='feature-description' id='-483668379'>
+<span>Rental by week, changing $60 a week. Result when different number of weeks are evaluated [0]</span>
+<span style='float: right; font-size: 60%;'>
+<a href='#toc'>Return</a>
+</span>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Given:</div>
+</td>
+<td>
+<div class='block-text'>a bike</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>When:</div>
+</td>
+<td>
+<div class='block-text'>the bike is rented</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Then:</div>
+</td>
+<td>
+<div class='block-text'>the total rented bikes should be 1 and the total price should be number of week rented by price</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Where:</div>
+</td>
+<td>
+<div class='block-text'>weeks rented are... result is...</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Examples:</div>
+</td>
+<td>
+<div class='spec-examples'>
+<table class='ex-table'>
+<thead>
+<th class='ex-header'>weeksRented</th>
+<th class='ex-header'>result</th>
+</thead>
+<tbody>
+<tr class='ex-pass'>
+<td class='ex-value'>1</td>
+<td class='ex-value'>60</td>
+<td class='ex-result'>OK</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td colspan='10'>
+<div class='feature-description' id='-483668348'>
+<span>Rental by week, changing $60 a week. Result when different number of weeks are evaluated [1]</span>
+<span style='float: right; font-size: 60%;'>
+<a href='#toc'>Return</a>
+</span>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Given:</div>
+</td>
+<td>
+<div class='block-text'>a bike</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>When:</div>
+</td>
+<td>
+<div class='block-text'>the bike is rented</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Then:</div>
+</td>
+<td>
+<div class='block-text'>the total rented bikes should be 1 and the total price should be number of week rented by price</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Where:</div>
+</td>
+<td>
+<div class='block-text'>weeks rented are... result is...</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Examples:</div>
+</td>
+<td>
+<div class='spec-examples'>
+<table class='ex-table'>
+<thead>
+<th class='ex-header'>weeksRented</th>
+<th class='ex-header'>result</th>
+</thead>
+<tbody>
+<tr class='ex-pass'>
+<td class='ex-value'>5</td>
+<td class='ex-value'>300</td>
+<td class='ex-result'>OK</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td colspan='10'>
+<div class='feature-description' id='-483668317'>
+<span>Rental by week, changing $60 a week. Result when different number of weeks are evaluated [2]</span>
+<span style='float: right; font-size: 60%;'>
+<a href='#toc'>Return</a>
+</span>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Given:</div>
+</td>
+<td>
+<div class='block-text'>a bike</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>When:</div>
+</td>
+<td>
+<div class='block-text'>the bike is rented</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Then:</div>
+</td>
+<td>
+<div class='block-text'>the total rented bikes should be 1 and the total price should be number of week rented by price</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Where:</div>
+</td>
+<td>
+<div class='block-text'>weeks rented are... result is...</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Examples:</div>
+</td>
+<td>
+<div class='spec-examples'>
+<table class='ex-table'>
+<thead>
+<th class='ex-header'>weeksRented</th>
+<th class='ex-header'>result</th>
+</thead>
+<tbody>
+<tr class='ex-pass'>
+<td class='ex-value'>3</td>
+<td class='ex-value'>180</td>
+<td class='ex-result'>OK</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td colspan='10'>
+<div class='feature-description' id='-1632250616'>
+<span>Family Rental, discount of 30% is applied to 3 rentals [0]</span>
 <span style='float: right; font-size: 60%;'>
 <a href='#toc'>Return</a>
 </span>
@@ -495,9 +956,43 @@ div.footer {
 </td>
 </tr>
 <tr>
+<td>
+<div class='block-kind'>Where:</div>
+</td>
+<td>
+<div class='block-text'>hours rented, days rented, weeks rented are... result is</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Examples:</div>
+</td>
+<td>
+<div class='spec-examples'>
+<table class='ex-table'>
+<thead>
+<th class='ex-header'>hoursRented</th>
+<th class='ex-header'>daysRented</th>
+<th class='ex-header'>weeksRented</th>
+<th class='ex-header'>result</th>
+</thead>
+<tbody>
+<tr class='ex-pass'>
+<td class='ex-value'>1</td>
+<td class='ex-value'>1</td>
+<td class='ex-value'>1</td>
+<td class='ex-value'>59.5</td>
+<td class='ex-result'>OK</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr>
 <td colspan='10'>
-<div class='feature-description ignored' id='1345819810'>
-<span>My feature</span>
+<div class='feature-description' id='-1632250585'>
+<span>Family Rental, discount of 30% is applied to 3 rentals [1]</span>
 <span style='float: right; font-size: 60%;'>
 <a href='#toc'>Return</a>
 </span>
@@ -506,10 +1001,740 @@ div.footer {
 </tr>
 <tr>
 <td>
-<div class='block-kind'>Expect:</div>
+<div class='block-kind'>Given:</div>
 </td>
 <td>
-<div class='block-text'>----</div>
+<div class='block-text'>3 bikes</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>When:</div>
+</td>
+<td>
+<div class='block-text'>each bike is rented in diferent ways, by days, hours and weeks</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Then:</div>
+</td>
+<td>
+<div class='block-text'>total rented bikes should be 3 and the total amount should contains a 30% of discount</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Where:</div>
+</td>
+<td>
+<div class='block-text'>hours rented, days rented, weeks rented are... result is</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Examples:</div>
+</td>
+<td>
+<div class='spec-examples'>
+<table class='ex-table'>
+<thead>
+<th class='ex-header'>hoursRented</th>
+<th class='ex-header'>daysRented</th>
+<th class='ex-header'>weeksRented</th>
+<th class='ex-header'>result</th>
+</thead>
+<tbody>
+<tr class='ex-pass'>
+<td class='ex-value'>8</td>
+<td class='ex-value'>5</td>
+<td class='ex-value'>2</td>
+<td class='ex-value'>182.0</td>
+<td class='ex-result'>OK</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td colspan='10'>
+<div class='feature-description' id='-1632250554'>
+<span>Family Rental, discount of 30% is applied to 3 rentals [2]</span>
+<span style='float: right; font-size: 60%;'>
+<a href='#toc'>Return</a>
+</span>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Given:</div>
+</td>
+<td>
+<div class='block-text'>3 bikes</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>When:</div>
+</td>
+<td>
+<div class='block-text'>each bike is rented in diferent ways, by days, hours and weeks</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Then:</div>
+</td>
+<td>
+<div class='block-text'>total rented bikes should be 3 and the total amount should contains a 30% of discount</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Where:</div>
+</td>
+<td>
+<div class='block-text'>hours rented, days rented, weeks rented are... result is</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Examples:</div>
+</td>
+<td>
+<div class='spec-examples'>
+<table class='ex-table'>
+<thead>
+<th class='ex-header'>hoursRented</th>
+<th class='ex-header'>daysRented</th>
+<th class='ex-header'>weeksRented</th>
+<th class='ex-header'>result</th>
+</thead>
+<tbody>
+<tr class='ex-pass'>
+<td class='ex-value'>10</td>
+<td class='ex-value'>3</td>
+<td class='ex-value'>1</td>
+<td class='ex-value'>119.0</td>
+<td class='ex-result'>OK</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td colspan='10'>
+<div class='feature-description' id='-1925653623'>
+<span>Family Rental, discount of 30% is applied to 4 rentals [0]</span>
+<span style='float: right; font-size: 60%;'>
+<a href='#toc'>Return</a>
+</span>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Given:</div>
+</td>
+<td>
+<div class='block-text'>4 bikes</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>When:</div>
+</td>
+<td>
+<div class='block-text'>each bike is rented in diferent ways, by days, hours and weeks</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Then:</div>
+</td>
+<td>
+<div class='block-text'>total rented bikes should be 4 and the total amount should contains a 30% of discount</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Where:</div>
+</td>
+<td>
+<div class='block-text'>hours rented, days rented, weeks rented are... result is</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Examples:</div>
+</td>
+<td>
+<div class='spec-examples'>
+<table class='ex-table'>
+<thead>
+<th class='ex-header'>hoursRented</th>
+<th class='ex-header'>daysRented</th>
+<th class='ex-header'>weeksRented</th>
+<th class='ex-header'>result</th>
+</thead>
+<tbody>
+<tr class='ex-pass'>
+<td class='ex-value'>1</td>
+<td class='ex-value'>1</td>
+<td class='ex-value'>1</td>
+<td class='ex-value'>73.5</td>
+<td class='ex-result'>OK</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td colspan='10'>
+<div class='feature-description' id='-1925653592'>
+<span>Family Rental, discount of 30% is applied to 4 rentals [1]</span>
+<span style='float: right; font-size: 60%;'>
+<a href='#toc'>Return</a>
+</span>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Given:</div>
+</td>
+<td>
+<div class='block-text'>4 bikes</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>When:</div>
+</td>
+<td>
+<div class='block-text'>each bike is rented in diferent ways, by days, hours and weeks</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Then:</div>
+</td>
+<td>
+<div class='block-text'>total rented bikes should be 4 and the total amount should contains a 30% of discount</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Where:</div>
+</td>
+<td>
+<div class='block-text'>hours rented, days rented, weeks rented are... result is</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Examples:</div>
+</td>
+<td>
+<div class='spec-examples'>
+<table class='ex-table'>
+<thead>
+<th class='ex-header'>hoursRented</th>
+<th class='ex-header'>daysRented</th>
+<th class='ex-header'>weeksRented</th>
+<th class='ex-header'>result</th>
+</thead>
+<tbody>
+<tr class='ex-pass'>
+<td class='ex-value'>8</td>
+<td class='ex-value'>5</td>
+<td class='ex-value'>2</td>
+<td class='ex-value'>252.0</td>
+<td class='ex-result'>OK</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td colspan='10'>
+<div class='feature-description' id='-1925653561'>
+<span>Family Rental, discount of 30% is applied to 4 rentals [2]</span>
+<span style='float: right; font-size: 60%;'>
+<a href='#toc'>Return</a>
+</span>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Given:</div>
+</td>
+<td>
+<div class='block-text'>4 bikes</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>When:</div>
+</td>
+<td>
+<div class='block-text'>each bike is rented in diferent ways, by days, hours and weeks</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Then:</div>
+</td>
+<td>
+<div class='block-text'>total rented bikes should be 4 and the total amount should contains a 30% of discount</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Where:</div>
+</td>
+<td>
+<div class='block-text'>hours rented, days rented, weeks rented are... result is</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Examples:</div>
+</td>
+<td>
+<div class='spec-examples'>
+<table class='ex-table'>
+<thead>
+<th class='ex-header'>hoursRented</th>
+<th class='ex-header'>daysRented</th>
+<th class='ex-header'>weeksRented</th>
+<th class='ex-header'>result</th>
+</thead>
+<tbody>
+<tr class='ex-pass'>
+<td class='ex-value'>10</td>
+<td class='ex-value'>3</td>
+<td class='ex-value'>1</td>
+<td class='ex-value'>161.0</td>
+<td class='ex-result'>OK</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td colspan='10'>
+<div class='feature-description' id='2075910666'>
+<span>Family Rental, discount of 30% is applied to 5 rentals [0]</span>
+<span style='float: right; font-size: 60%;'>
+<a href='#toc'>Return</a>
+</span>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Given:</div>
+</td>
+<td>
+<div class='block-text'>5 bikes</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>When:</div>
+</td>
+<td>
+<div class='block-text'>each bike is rented in diferent ways, by days, hours and weeks</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Then:</div>
+</td>
+<td>
+<div class='block-text'>total rented bikes should be 5 and the total amount should contains a 30% of discount</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Where:</div>
+</td>
+<td>
+<div class='block-text'>hours rented, days rented, weeks rented are... result is</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Examples:</div>
+</td>
+<td>
+<div class='spec-examples'>
+<table class='ex-table'>
+<thead>
+<th class='ex-header'>hoursRented</th>
+<th class='ex-header'>daysRented</th>
+<th class='ex-header'>weeksRented</th>
+<th class='ex-header'>result</th>
+</thead>
+<tbody>
+<tr class='ex-pass'>
+<td class='ex-value'>1</td>
+<td class='ex-value'>1</td>
+<td class='ex-value'>1</td>
+<td class='ex-value'>115.5</td>
+<td class='ex-result'>OK</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td colspan='10'>
+<div class='feature-description' id='2075910697'>
+<span>Family Rental, discount of 30% is applied to 5 rentals [1]</span>
+<span style='float: right; font-size: 60%;'>
+<a href='#toc'>Return</a>
+</span>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Given:</div>
+</td>
+<td>
+<div class='block-text'>5 bikes</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>When:</div>
+</td>
+<td>
+<div class='block-text'>each bike is rented in diferent ways, by days, hours and weeks</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Then:</div>
+</td>
+<td>
+<div class='block-text'>total rented bikes should be 5 and the total amount should contains a 30% of discount</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Where:</div>
+</td>
+<td>
+<div class='block-text'>hours rented, days rented, weeks rented are... result is</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Examples:</div>
+</td>
+<td>
+<div class='spec-examples'>
+<table class='ex-table'>
+<thead>
+<th class='ex-header'>hoursRented</th>
+<th class='ex-header'>daysRented</th>
+<th class='ex-header'>weeksRented</th>
+<th class='ex-header'>result</th>
+</thead>
+<tbody>
+<tr class='ex-pass'>
+<td class='ex-value'>8</td>
+<td class='ex-value'>5</td>
+<td class='ex-value'>2</td>
+<td class='ex-value'>336.0</td>
+<td class='ex-result'>OK</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td colspan='10'>
+<div class='feature-description' id='2075910728'>
+<span>Family Rental, discount of 30% is applied to 5 rentals [2]</span>
+<span style='float: right; font-size: 60%;'>
+<a href='#toc'>Return</a>
+</span>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Given:</div>
+</td>
+<td>
+<div class='block-text'>5 bikes</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>When:</div>
+</td>
+<td>
+<div class='block-text'>each bike is rented in diferent ways, by days, hours and weeks</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Then:</div>
+</td>
+<td>
+<div class='block-text'>total rented bikes should be 5 and the total amount should contains a 30% of discount</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Where:</div>
+</td>
+<td>
+<div class='block-text'>hours rented, days rented, weeks rented are... result is</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Examples:</div>
+</td>
+<td>
+<div class='spec-examples'>
+<table class='ex-table'>
+<thead>
+<th class='ex-header'>hoursRented</th>
+<th class='ex-header'>daysRented</th>
+<th class='ex-header'>weeksRented</th>
+<th class='ex-header'>result</th>
+</thead>
+<tbody>
+<tr class='ex-pass'>
+<td class='ex-value'>10</td>
+<td class='ex-value'>3</td>
+<td class='ex-value'>1</td>
+<td class='ex-value'>203.0</td>
+<td class='ex-result'>OK</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td colspan='10'>
+<div class='feature-description' id='-953020104'>
+<span>Family Rental, discount of 30% is not applied to 6 rentals [0]</span>
+<span style='float: right; font-size: 60%;'>
+<a href='#toc'>Return</a>
+</span>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Given:</div>
+</td>
+<td>
+<div class='block-text'>6 bikes</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>When:</div>
+</td>
+<td>
+<div class='block-text'>each bike is rented in diferent ways, by days, hours and weeks</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Then:</div>
+</td>
+<td>
+<div class='block-text'>total rented bikes should be 6 and the total amount should NOT contains a 30% of discount</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Where:</div>
+</td>
+<td>
+<div class='block-text'>hours rented, days rented, weeks rented are... result is</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Examples:</div>
+</td>
+<td>
+<div class='spec-examples'>
+<table class='ex-table'>
+<thead>
+<th class='ex-header'>hoursRented</th>
+<th class='ex-header'>daysRented</th>
+<th class='ex-header'>weeksRented</th>
+<th class='ex-header'>result</th>
+</thead>
+<tbody>
+<tr class='ex-pass'>
+<td class='ex-value'>1</td>
+<td class='ex-value'>1</td>
+<td class='ex-value'>1</td>
+<td class='ex-value'>170</td>
+<td class='ex-result'>OK</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td colspan='10'>
+<div class='feature-description' id='-953020073'>
+<span>Family Rental, discount of 30% is not applied to 6 rentals [1]</span>
+<span style='float: right; font-size: 60%;'>
+<a href='#toc'>Return</a>
+</span>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Given:</div>
+</td>
+<td>
+<div class='block-text'>6 bikes</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>When:</div>
+</td>
+<td>
+<div class='block-text'>each bike is rented in diferent ways, by days, hours and weeks</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Then:</div>
+</td>
+<td>
+<div class='block-text'>total rented bikes should be 6 and the total amount should NOT contains a 30% of discount</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Where:</div>
+</td>
+<td>
+<div class='block-text'>hours rented, days rented, weeks rented are... result is</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Examples:</div>
+</td>
+<td>
+<div class='spec-examples'>
+<table class='ex-table'>
+<thead>
+<th class='ex-header'>hoursRented</th>
+<th class='ex-header'>daysRented</th>
+<th class='ex-header'>weeksRented</th>
+<th class='ex-header'>result</th>
+</thead>
+<tbody>
+<tr class='ex-pass'>
+<td class='ex-value'>8</td>
+<td class='ex-value'>5</td>
+<td class='ex-value'>2</td>
+<td class='ex-value'>520</td>
+<td class='ex-result'>OK</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td colspan='10'>
+<div class='feature-description' id='-953020042'>
+<span>Family Rental, discount of 30% is not applied to 6 rentals [2]</span>
+<span style='float: right; font-size: 60%;'>
+<a href='#toc'>Return</a>
+</span>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Given:</div>
+</td>
+<td>
+<div class='block-text'>6 bikes</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>When:</div>
+</td>
+<td>
+<div class='block-text'>each bike is rented in diferent ways, by days, hours and weeks</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Then:</div>
+</td>
+<td>
+<div class='block-text'>total rented bikes should be 6 and the total amount should NOT contains a 30% of discount</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Where:</div>
+</td>
+<td>
+<div class='block-text'>hours rented, days rented, weeks rented are... result is</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Examples:</div>
+</td>
+<td>
+<div class='spec-examples'>
+<table class='ex-table'>
+<thead>
+<th class='ex-header'>hoursRented</th>
+<th class='ex-header'>daysRented</th>
+<th class='ex-header'>weeksRented</th>
+<th class='ex-header'>result</th>
+</thead>
+<tbody>
+<tr class='ex-pass'>
+<td class='ex-value'>10</td>
+<td class='ex-value'>3</td>
+<td class='ex-value'>1</td>
+<td class='ex-value'>340</td>
+<td class='ex-result'>OK</td>
+</tr>
+</tbody>
+</table>
+</div>
 </td>
 </tr>
 </tbody>
