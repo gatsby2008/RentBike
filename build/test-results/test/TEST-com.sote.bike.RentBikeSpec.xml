@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.sote.bike.RentBikeSpec" tests="21" skipped="0" failures="0" errors="0" timestamp="2019-03-27T20:43:53" hostname="marcelo-RC512" time="0.092">
+<testsuite name="com.sote.bike.RentBikeSpec" tests="21" skipped="0" failures="0" errors="0" timestamp="2019-03-27T20:54:30" hostname="marcelo-RC512" time="0.085">
   <properties/>
-  <testcase name="Rental by hour, charging $5 per hour. Result when different number of hours are evaluated[0]" classname="com.sote.bike.RentBikeSpec" time="0.051"/>
+  <testcase name="Rental by hour, charging $5 per hour. Result when different number of hours are evaluated[0]" classname="com.sote.bike.RentBikeSpec" time="0.045"/>
   <testcase name="Rental by hour, charging $5 per hour. Result when different number of hours are evaluated[1]" classname="com.sote.bike.RentBikeSpec" time="0.001"/>
   <testcase name="Rental by hour, charging $5 per hour. Result when different number of hours are evaluated[2]" classname="com.sote.bike.RentBikeSpec" time="0.0"/>
   <testcase name="Rental by day, charging $20 a day. Result when different number of days are evaluated[0]" classname="com.sote.bike.RentBikeSpec" time="0.003"/>
   <testcase name="Rental by day, charging $20 a day. Result when different number of days are evaluated[1]" classname="com.sote.bike.RentBikeSpec" time="0.001"/>
   <testcase name="Rental by day, charging $20 a day. Result when different number of days are evaluated[2]" classname="com.sote.bike.RentBikeSpec" time="0.001"/>
-  <testcase name="Rental by week, changing $60 a week. Result when different number of weeks are evaluated[0]" classname="com.sote.bike.RentBikeSpec" time="0.003"/>
+  <testcase name="Rental by week, changing $60 a week. Result when different number of weeks are evaluated[0]" classname="com.sote.bike.RentBikeSpec" time="0.002"/>
   <testcase name="Rental by week, changing $60 a week. Result when different number of weeks are evaluated[1]" classname="com.sote.bike.RentBikeSpec" time="0.001"/>
-  <testcase name="Rental by week, changing $60 a week. Result when different number of weeks are evaluated[2]" classname="com.sote.bike.RentBikeSpec" time="0.001"/>
-  <testcase name="Family Rental, discount of 30% is applied to 3 rentals[0]" classname="com.sote.bike.RentBikeSpec" time="0.001"/>
+  <testcase name="Rental by week, changing $60 a week. Result when different number of weeks are evaluated[2]" classname="com.sote.bike.RentBikeSpec" time="0.0"/>
+  <testcase name="Family Rental, discount of 30% is applied to 3 rentals[0]" classname="com.sote.bike.RentBikeSpec" time="0.002"/>
   <testcase name="Family Rental, discount of 30% is applied to 3 rentals[1]" classname="com.sote.bike.RentBikeSpec" time="0.001"/>
-  <testcase name="Family Rental, discount of 30% is applied to 3 rentals[2]" classname="com.sote.bike.RentBikeSpec" time="0.0"/>
+  <testcase name="Family Rental, discount of 30% is applied to 3 rentals[2]" classname="com.sote.bike.RentBikeSpec" time="0.001"/>
   <testcase name="Family Rental, discount of 30% is applied to 4 rentals[0]" classname="com.sote.bike.RentBikeSpec" time="0.001"/>
-  <testcase name="Family Rental, discount of 30% is applied to 4 rentals[1]" classname="com.sote.bike.RentBikeSpec" time="0.0"/>
-  <testcase name="Family Rental, discount of 30% is applied to 4 rentals[2]" classname="com.sote.bike.RentBikeSpec" time="0.001"/>
+  <testcase name="Family Rental, discount of 30% is applied to 4 rentals[1]" classname="com.sote.bike.RentBikeSpec" time="0.001"/>
+  <testcase name="Family Rental, discount of 30% is applied to 4 rentals[2]" classname="com.sote.bike.RentBikeSpec" time="0.0"/>
   <testcase name="Family Rental, discount of 30% is applied to 5 rentals[0]" classname="com.sote.bike.RentBikeSpec" time="0.004"/>
-  <testcase name="Family Rental, discount of 30% is applied to 5 rentals[1]" classname="com.sote.bike.RentBikeSpec" time="0.001"/>
+  <testcase name="Family Rental, discount of 30% is applied to 5 rentals[1]" classname="com.sote.bike.RentBikeSpec" time="0.0"/>
   <testcase name="Family Rental, discount of 30% is applied to 5 rentals[2]" classname="com.sote.bike.RentBikeSpec" time="0.0"/>
   <testcase name="Family Rental, discount of 30% is not applied to 6 rentals[0]" classname="com.sote.bike.RentBikeSpec" time="0.002"/>
   <testcase name="Family Rental, discount of 30% is not applied to 6 rentals[1]" classname="com.sote.bike.RentBikeSpec" time="0.001"/>
