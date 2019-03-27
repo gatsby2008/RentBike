@@ -7,5 +7,6 @@ Rental: is the class in charge of the amount calculation according to the assign
 Spock framework(1.3-groovy-2.5) was used for unit test
 
 To run the application that was build using Gradle version 5.2.1 and groovy 2.5.6, just run the following command
-"gradle clean build"
+"gradle clean build".
+
 After that, you will be able to see a report in the folder build/spock-reports opening the file index.html
