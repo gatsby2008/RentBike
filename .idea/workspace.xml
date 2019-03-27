@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5dfec55f-6f4d-482d-abb4-9b8443a0cb09" name="Default Changelist" comment="" />
+    <list default="true" id="5dfec55f-6f4d-482d-abb4-9b8443a0cb09" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -87,6 +90,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="gitignore" value="1" />
           <entry key="gradle" value="3" />
           <entry key="groovy" value="8" />
           <entry key="java" value="17" />
@@ -97,12 +101,14 @@
         <counts>
           <entry key="Groovy" value="11" />
           <entry key="JAVA" value="17" />
+          <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="28" />
+          <entry key="gitignore" value="33" />
           <entry key="gradle" value="20" />
           <entry key="groovy" value="3252" />
           <entry key="java" value="2172" />
@@ -112,7 +118,7 @@
         <counts>
           <entry key="Groovy" value="3272" />
           <entry key="JAVA" value="2172" />
-          <entry key="PLAIN_TEXT" value="28" />
+          <entry key="PLAIN_TEXT" value="61" />
         </counts>
       </usages-collector>
     </session>
@@ -122,7 +128,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/groovy/com/sote/bike/RentBikeSpec.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2625">
+            <state relative-caret-position="270">
               <caret line="175" lean-forward="true" selection-start-line="175" selection-end-line="175" />
               <folding>
                 <element signature="e#24#55#0" expanded="true" />
@@ -216,6 +222,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -558,6 +567,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/sote/bike/AbstractBikeForRent.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sote/bike/BikeForRent.java" />
         <option value="$PROJECT_DIR$/src/test/groovy/com/sote/bike/RentBikeSpec.groovy" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -595,149 +605,6 @@
               <item name="rent-bike" type="b2602c69:ProjectViewProjectNode" />
               <item name="rent-bike" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
-            <path>
-              <item name="rent-bike" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rent-bike" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rent-bike" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rent-bike" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="spock-reports" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rent-bike" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rent-bike" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rent-bike" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rent-bike" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rent-bike" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rent-bike" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rent-bike" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rent-bike" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rent-bike" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rent-bike" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="sote" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rent-bike" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rent-bike" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="sote" type="462c0819:PsiDirectoryNode" />
-              <item name="bike" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rent-bike" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rent-bike" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rent-bike" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rent-bike" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rent-bike" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rent-bike" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rent-bike" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rent-bike" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="sote" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rent-bike" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rent-bike" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="sote" type="462c0819:PsiDirectoryNode" />
-              <item name="bike" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rent-bike" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rent-bike" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rent-bike" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rent-bike" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="rent-bike" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rent-bike" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rent-bike" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rent-bike" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bike" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rent-bike" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rent-bike" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="rent-bike" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rent-bike" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="groovy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rent-bike" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rent-bike" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="groovy" type="462c0819:PsiDirectoryNode" />
-              <item name="bike" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -747,7 +614,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553715280598" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553716318161" />
     <property name="last_opened_file_path" value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.spockframework/spock-core/1.3-groovy-2.5/6f0df2cf4549dcc4b914971675da7e224e893e82/spock-core-1.3-groovy-2.5.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -885,7 +752,7 @@
       <updated>1553604721963</updated>
       <workItem from="1553604726539" duration="22124000" />
       <workItem from="1553695435402" duration="7967000" />
-      <workItem from="1553704371375" duration="8924000" />
+      <workItem from="1553704371375" duration="9962000" />
     </task>
     <servers />
   </component>
@@ -922,7 +789,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39015000" />
+    <option name="totallyTimeSpent" value="40053000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1366" height="741" extended-state="6" />
@@ -932,9 +799,9 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Designer" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.39848486" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.39848486" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.32901135" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.32954547" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="3" weight="0.47670808" />
@@ -942,7 +809,7 @@
       <window_info anchor="bottom" id="Build" order="5" weight="0.32901135" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" weight="0.32901135" />
-      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.3873582" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.3873582" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.39708266" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -1121,9 +988,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/groovy/com/sote/bike/RentBikeSpec.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2625">
+        <state relative-caret-position="270">
           <caret line="175" lean-forward="true" selection-start-line="175" selection-end-line="175" />
           <folding>
             <element signature="e#24#55#0" expanded="true" />
