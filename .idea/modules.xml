@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rent-bike.iml" filepath="$PROJECT_DIR$/.idea/modules/rent-bike.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rent-bike_main.iml" filepath="$PROJECT_DIR$/.idea/modules/rent-bike_main.iml" group="rent-bike" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rent-bike_test.iml" filepath="$PROJECT_DIR$/.idea/modules/rent-bike_test.iml" group="rent-bike" />
+    </modules>
+  </component>
+</project>

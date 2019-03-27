@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.sote.bike.RentBikeSpec" tests="1" skipped="0" failures="1" errors="0" timestamp="2019-03-26T13:35:17" hostname="marcelo-RC512" time="0.161">
+  <properties/>
+  <testcase name="a bike is rent for a day" classname="com.sote.bike.RentBikeSpec" time="0.161">
+    <failure message="Condition not satisfied:&#10;&#10;bike.getTotal(daysDelay) == BikeForDay.price + 5&#10;|    |        |          |             |     |&#10;|    0.0      1          false         10.0  15.0&#10;&lt;com.sote.bike.RentForDay.BikeForDay@153e0adf&gt;&#10;" type="org.spockframework.runtime.SpockComparisonFailure">Condition not satisfied:
+
+bike.getTotal(daysDelay) == BikeForDay.price + 5
+|    |        |          |             |     |
+|    0.0      1          false         10.0  15.0
+&lt;com.sote.bike.RentForDay.BikeForDay@153e0adf&gt;
+
+	at com.sote.bike.RentBikeSpec.a bike is rent for a day(RentBikeSpec.groovy:13)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
